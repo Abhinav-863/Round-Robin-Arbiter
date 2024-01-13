@@ -1,7 +1,7 @@
 # Round-Robin-Arbiter
 This project implements a Round Robin Variable Time Arbitration module in Verilog. The module is designed to prioritize and serve requests from multiple sources in a round-robin fashion with variable time intervals. It is suitable for applications where fair access to a shared resource is essential, such as in networking, memory controllers, or any system with multiple entities contending for a resource.
 
-#Features
+Features
 
 1).Round Robin Arbitration: The module follows a round-robin scheduling algorithm, ensuring fair access to the shared resource for all requesting entities.
 
