@@ -29,7 +29,11 @@ out[3:0]: Output indicating the selected entity based on the current state.
 How to Use
 
 1).Instantiation: Instantiate the round_robin_variable_time module in your Verilog design.
+
 2).Parameters: Adjust the module parameters, such as ideal state and custom states, to match your system requirements.
+
 3).Clock and Reset: Connect the clock and asynchronous reset signals to your system's clock and reset sources.
+
 4).Requests: Connect the request signals (req[3:0]) from the contending entities to the module.
+
 5).Output: Utilize the output signal (out[3:0]) to determine which entity is granted access to the shared resource.
