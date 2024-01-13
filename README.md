@@ -16,15 +16,18 @@ Parameters
 
 6).State 0-3: Customizable states corresponding to different entities contending for the resource.
 
-#Inputs
+Inputs
+
 clk: Clock input.
 rst: Asynchronous reset input.
 req[3:0]: Request inputs from different entities.
 
-#Outputs
+Outputs
+
 out[3:0]: Output indicating the selected entity based on the current state.
 
-#How to Use
+How to Use
+
 1).Instantiation: Instantiate the round_robin_variable_time module in your Verilog design.
 2).Parameters: Adjust the module parameters, such as ideal state and custom states, to match your system requirements.
 3).Clock and Reset: Connect the clock and asynchronous reset signals to your system's clock and reset sources.
